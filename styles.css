@@ -1,1 +1,26 @@
 /* your code */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+table{
+    background-color: lightcyan;
+    /* padding: 10px; */
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-color: lightcyan;
+}
+thead{
+    font-weight: 0;
+    color: white;
+    margin: 0;
+    background-color:blanchedalmond;
+}
+th,td{
+    padding: 10px;
+}
+tbody tr:nth-child(odd){
+    background-color: aliceblue;
+}
